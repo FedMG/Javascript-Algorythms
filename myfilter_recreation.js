@@ -1,5 +1,5 @@
 // Recreation of filter operation
-Array.prototype.myFilter = function (callback) {
+Array.prototype.myFilter = function (callback){
     const newArray = [];
     this.forEach(val => {
         if (callback(val)) {

@@ -1,3 +1,4 @@
+// Update properties(records) in a "recordCollection" object
 const recordCollection = {
    2548: {
       albumTitle: 'Slippery When Wet',

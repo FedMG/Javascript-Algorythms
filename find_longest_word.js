@@ -1,10 +1,9 @@
-const findLongestWordLength = str => {
+// Find the longest word in a string and return it's length
+const findLongestWord = str => {
   let newWord = "", begin = 0;
   for (let i in str) {
-    
-    // space & last condition
+
     if (str[i].match(/\s/) == str[i] || str.length - 1 == i) {
-      // Last
 
       if (str.length - 1 == i && str.match(/\s$/) != str[i]) {
         i++;
@@ -20,7 +19,7 @@ const findLongestWordLength = str => {
       }
     }
   }
-  console.log()
   return newWord.length;
 }
-console.log(findLongestWordLength("The quick brown fox jumped over the lazy dog"));
+console.log(findLongestWord("The quick brown fox jumped over the lazy dog"));
+console.log(findLongestWordLength("May the force be with you"))

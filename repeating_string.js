@@ -1,19 +1,20 @@
-const repeatStringNumTimes = (str, num) => {
+// Repeat a string n times
+const repeatStringNTimes = (str, n) => {
   let newStr = "", count = 0;
 
-  if (str.match(/./) && num > 0) {
+  if (str.match(/./) && n > 0) {
     for (let i = 0; i < str.length; i++) {
       newStr += str[i];
 
-      if (i === str.length - 1 && count < num - 1) {
+      if (i === str.length - 1 && count < n - 1) {
         i = -1;
         count++
       }
     }
-  } else if (num < 1) {
+  } else if (n < 1) {
     return "";
   }
   return newStr;
 }
 
-console.log(repeatStringNumTimes("abc", 3));
+console.log(repeatStringNTimes("abc", 3));

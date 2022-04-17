@@ -1,3 +1,4 @@
+// Convert-a-string-to-spinal-case
 const spinalCase = str => {
   let newStr = "";
 

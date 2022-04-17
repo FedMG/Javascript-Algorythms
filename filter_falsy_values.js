@@ -1,4 +1,5 @@
-const bouncer = arr => {
+// Remove all falsy values from an array
+const filterFalsyValues = arr => {
   const newArr = [];
   let newStr = "";
 
@@ -17,4 +18,4 @@ const bouncer = arr => {
   return newArr;
 }
 
-console.log(bouncer([false, null, 0, NaN, undefined, ""]));
+console.log(filterFalsyValues([false, null, 0, NaN, undefined, ""]));

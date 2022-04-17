@@ -1,4 +1,4 @@
-
+// Returns a sentence with each first letter of each word capitalized
 const titleCase = str => {
   let newStr = "";
   for (let i in str) {
@@ -17,4 +17,7 @@ const titleCase = str => {
   return newStr;
 }
 
-titleCase("");
+console.log(titleCase(""));
+console.log(titleCase("HERE IS MY HANDLE HERE IS MY SPOUT"));
+console.log(titleCase("I'm a little tea pot"));
+console.log(titleCase("sHoRt AnD sToUt"));

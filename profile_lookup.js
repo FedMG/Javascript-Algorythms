@@ -1,3 +1,4 @@
+// Check if a contact and a contact property exists in an object
 const contacts = [
   {
     firstName: "Akira",

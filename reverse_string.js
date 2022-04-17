@@ -1,3 +1,4 @@
+// Turn the direction of the word
 const reverseString = str => {
   let result = "";
   let arrStr = str.split("");
@@ -9,14 +10,3 @@ const reverseString = str => {
 }
 
 console.log(reverseString("hello"));
-
-
-
-
-const reverseStrings = str => {
-  let reverseStr = "";
-  for (let i = str.length - 1; i >= 0; i--) {
-    reversedStr += str[i];
-  }
-  return reversedStr;
-}

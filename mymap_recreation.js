@@ -1,4 +1,3 @@
-
 // Recreation of map operation
 Array.prototype.myMap = function (callback) {
     const newArray = [];

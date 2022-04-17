@@ -1,4 +1,11 @@
-const cc = card => {
+/**
+ * In Black-Jack, 'Card Counting' is a technique to gain advantange over the house.
+ * Having more high cards remaining in the deck favors the player.
+ * Each card is assigned a value according to the table below.
+ * When the count > 0, the player should bet high.
+ * When the count == 0 or < 0, the player should bet low.
+ */ 
+const cardCounting = card => {
     let count = 0;
     switch (card) {
         case 2:
@@ -33,8 +40,8 @@ const cc = card => {
     }
 }
 
-cc(2);
-cc(3);
-cc(7);
-cc('K');
-cc('A');
+cardCounting(2);
+cardCounting(3);
+cardCounting(7);
+cardCounting('K');
+cardCounting('A');

@@ -1,3 +1,4 @@
+// Confirms the end of a word
 const confirmEnding = (str, target) => {
   let x = target.length - 1;
   if (str.match(target)) {
@@ -24,3 +25,7 @@ const confirmEnding = (str, target) => {
 }
 
 console.log(confirmEnding("specification", "specification"));
+console.log(confirmEnding("If you want to save our world, you must hurry. We dont know how much longer we can withstand the nothing", "mountain"));
+console.log(confirmEnding("Connor", "n"));
+console.log(confirmEnding("Congratulation", "on"));
+console.log(confirmEnding("Abstraction", "action"));

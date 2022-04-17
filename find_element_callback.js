@@ -1,3 +1,4 @@
+// Find element in an array with of a callback function.
 const findElement = (arr, func) => {
   for (let i in arr) {
     if (func(arr[i])) {

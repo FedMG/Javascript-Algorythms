@@ -1,3 +1,4 @@
+// The largest number in an array
 const largestOfFour = arr => {
   let newArr = [];
 

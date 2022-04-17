@@ -16,3 +16,4 @@ const sumAll = arr => {
 }
 
 console.log(sumAll([10, 5]));
+console.log(sumAll([1, 4]));

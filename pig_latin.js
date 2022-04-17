@@ -33,4 +33,7 @@ function translatePigLatin(str) {
     }
 }
 
+console.log(translatePigLatin("glove"));
 console.log(translatePigLatin("aeiou"));
+console.log(translatePigLatin("algorithm"));
+console.log(translatePigLatin("rhythm"));
