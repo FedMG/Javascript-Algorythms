@@ -1,6 +1,6 @@
 // Make a person object
 const Person = function (firstAndLast) {
-    
+
     let name = firstAndLast.split(/[^A-Za-z]/);
 
     // get methods

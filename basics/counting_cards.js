@@ -4,7 +4,7 @@
  * Each card is assigned a value according to the table below.
  * When the count > 0, the player should bet high.
  * When the count == 0 or < 0, the player should bet low.
- */ 
+ */
 const cardCounting = card => {
     let count = 0;
     switch (card) {

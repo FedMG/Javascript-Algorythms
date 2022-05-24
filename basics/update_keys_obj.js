@@ -1,7 +1,7 @@
 // Update the keys of an object
 const props = objList.map(val => {
-    const obj = { "title": val["Title"], "rating": val["imdbRating"] }
-    return obj;
+  const obj = { "title": val["Title"], "rating": val["imdbRating"] }
+  return obj;
 });
 
 JSON.stringify(ratings);
